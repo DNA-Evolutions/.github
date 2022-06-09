@@ -67,8 +67,22 @@ Please have a look at our tutorials-section on how to improve your product with 
 
 
 
-## Additional tools
+## Additional Services
 Also, DNA Evolutions provide geographic software components which are supporting the automated dispatching process such as JOpt.RoutePlanner and JOpt.GeoCoder. 
+
+All our RESTful Services utilise <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html" target="_blank">Spring WebFlux</a> and <a href="https://swagger.io/" target="_blank">Swagger</a>. Internally the Java version of TourOptimizer is used. Indeed all specifications for the different services are derived from the core library, leading to guaranteed compatibility between all three services.
+
+<a href="https://dna-evolutions.com/" target="_blank"><img src="https://docs.dna-evolutions.com/indexres/dna-evolutions-product-infographic-jopt-cloud-integration-highres.svg" width="600"
+title="DNA-Evolutions Integration" alt="DNA-Evolutions Integration"></a>
+
+### JOpt-GeoCoder
+Forward-/Reverse geocode Addresses or Positions.
+
+### JOpt-RoutePlanner
+Find distances and driving times between points. Either as turn-by-turn result optionally providing driving instructions and route shapes or as matrix request for multiple routings.
+
+### JOpt-TourOptimizer
+Optimize a problem consisting of Nodes, Resources, and optionally externally provided connections. In contrast to our other services, we allow you to host your JOpt-TourOptimizer locally.
 
 
 
