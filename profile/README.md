@@ -98,6 +98,23 @@ Optimize a problem consisting of Nodes, Resources, and optionally externally pro
 - Our LinkedIn channel - <a href="https://www.linkedin.com/company/dna-evolutions/" target="_blank">DNA LinkedIn</a>
 
 
+## A Poem
+
+> With JOpt.TourOptimizer, your route's clear<br>
+No more confusion, no more fear<br>
+It finds the best path, so very quick<br>
+Your delivery time, it will slick<br>
+
+> No more wasted gas, no more delay<br>
+JOpt will get your goods on their way<br>
+And with its containerized form<br>
+You'll be sure to weather any storm<br>
+
+> JOpt will save you money, that's for sure<br>
+And your carbon footprint, it will purr<br>
+So why not give it a try today<br>
+With JOpt, you'll work smarter, not harder, hooray!<br>
+
 
 ## Agreement
 For reading our license agreement and for further information about license plans, please visit <a href="https://www.dna-evolutions.com" target="_blank">www.dna-evolutions.com</a>.
