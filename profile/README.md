@@ -3,88 +3,68 @@
 <a href="https://dna-evolutions.com/" target="_blank"><img src="https://docs.dna-evolutions.com/indexres/dna-temp-logo.png" width="110"
 title="DNA-Evolutions" alt="DNA-Evolutions"></a>
 
-A collection of documents, examples and tutorials for JOpt. 
-JOpt is a flexible routing optimization-engine written in Java, allowing to solve tour-optimization problems that are highly restricted, for example, regarding time windows, skills, and even mandatory constraints can be applied.
-
+Welcome to our space on GitHub. Here, we provide a repository of documents, examples, and tutorials for JOpt - a versatile routing optimization engine written in Java. JOpt is designed to solve complex tour-optimization problems with multiple restrictions, such as time windows, skills, and other essential constraints.
 
 ## Contact
 For legal information, contacts etc. please visit <a href="https://www.dna-evolutions.com" target="_blank">www.dna-evolutions.com</a>.
 
+## Why Choose JOpt?
+If you're creating software solutions for logistics dispatch, you're likely to face several challenges. Whether it's staff dispatching, truck shipment allocation in daily transportation, logistics planning, or waste management and district planning, JOpt is the tool for you. It's even designed to handle highly constrained problem sets efficiently.
 
-## Why JOpt?
-You are developing software for Logistics Dispatch Solutions, which contain challenges:
-
-- for staff dispatching such as sales reps, mobile service, or workforce?
-
-- for trucks shipment allocation in daily transportation and logistics (scheduling, tour optimization, etc.)?
-
-- for waste management and District Planning?
-
-- generally, highly constrained problem sets?
-
-Watch our introduction video. Click, to open video:
+Check out our introductory video for a quick overview:
 
 <a href="https://www.youtube.com/watch?v=U4mDQGnZGZs" target="_blank"><img src="https://dna-evolutions.com/wp-content/uploads/2022/10/jopt_intro_prev.gif" width="600"
 title="Introduction Video for DNA's JOpt" alt="Introduction Video for DNA's JOpt"></a>
 
+## The Power of Optimization
 
-
-## Goal
-Let a human dispatcher, or the included ObjectiveTuner tune optimization criterias to the best fit for your desired dispatching goals and business cases and let JOpt create the required solutions in the most efficient way.
-
-
+Optimization is the key to efficient logistics. With JOpt, you can let a human dispatcher or the included ObjectiveTuner adjust optimization criteria to achieve the best fit for your dispatching goals and business cases. Let JOpt do the heavy lifting and create efficient solutions tailored to your needs.
  
-## Automized
-Your product does not have an automized optimization engine? Then JOpt is the perfect fit for your product and can help you to save money, time, and workforce, letting you concentrate on your core business.
+## Automation at its Best
+Is your product lacking an automated optimization engine? JOpt is the perfect solution. It not only saves money, time, and workforce, but also allows you to focus on your core business. 
 
-JOpt has been designed as an integrable module for existing programs and suites for logistics planning purposes or standard ERP systems. If your product requires manual user input for dispatching tasks such as manually
+Designed as an integrable module for logistics planning applications and standard ERP systems, JOpt can assist with a wide range of dispatching tasks:
 
-- determine arrival times at tour stops or making sure that given fixed appointments are met,
+- Determining arrival times at tour stops
+- Ensuring that fixed appointments are met
+- Keeping track of all drivers' and resources' working times
+- Allocating a large number of tasks to mobile resources or large-scale vehicle fleets
 
-- make sure that all drivers' and resources' working times are kept,
+With JOpt, you can efficiently plan and optimize tours for all your trucks and resources, ensuring minimized time and travel distances while adhering to necessary constraints. Leverage the power of JOpt.TourOptimizer to streamline your planning process. This robust engine is designed to autonomously generate optimal routes for each of your trucks and resources, meticulously taking into account all shipments and tasks for the day. While its primary goal is to minimize time and travel distances, JOpt.TourOptimizer goes a step further to ensure that all your unique constraints are met, striking a fine balance between efficiency and customization.
 
-- allocate a huge number of tasks to any mobile resources or large-scale vehicle fleets
+These constraints can include a range of factors, such as adherence to working hours and travel-time regulations, recognizing the specific skills of drivers, compliance with transportation rules, and respecting the personal preferences of both resources and customers. JOpt.TourOptimizer also takes into account pre-negotiated and confirmed appointment times and other hard constraints. Its goal is to provide a comprehensive solution that balances operational efficiency with the nuanced needs of your business.
 
-you can utilize the JOpt.TourOptimizer engine to assist and even do the planning job and let it find the optimized tours for each of your trucks and resources. JOpt.TourOptimizer will find the tours from all the shipments and tasks of the day while at the same time the costs in terms of time- and travel-distances are minimized, additionally ensuring, as much as possible, that your constraints are not violated. These constraints, for example, are working- and travel-time regulations, drivers' skills, and transportation rules, personal preferences of both resources and customers, already negotiated and assured appointment times, hard constraints, and many more.
-
-
-## Integrated 
-Integrating the JOpt components into existing solutions is straight forward as it is docker compatible using the famous Swagger REST-API, or directly integrable as native Java dependency accessible via Maven or as direct Jar download. Whatever your programming environment is, REST facilitates software integration in your desired language (including famous ones like C#, Java, JS, Scala, Python, and many more ). 
-
+## Seamless Integration
+The integration of JOpt components into your existing solutions is straightforward. Whether you're using Docker with the renowned Swagger REST-API or integrating it as a native Java dependency via Maven or direct Jar download, JOpt is compatible with your setup. It supports multiple programming languages, including C#, Java, JS, Scala, Python, and many more.
 
 Direct integration:
 
 <img src="https://docs.dna-evolutions.com/indexres/dna-evolutions-product-infographic-jopt-direct-integration-highres.svg" data-canonical-src="https://docs.dna-evolutions.com/indexres/dna-evolutions-product-infographic-jopt-direct-integration-highres.svg" width="300" />
 
-Example Integration scheme for docker:
+Example Integration scheme for Docker:
 
 ![TourOptimizer-Docker-Integration](https://docs.dna-evolutions.com/rest/touroptimizer/res/touroptimizer-cloud-integration-highres.svg)
 
+## Comprehensive Documentation
+Visit our tutorials section to learn how to enhance your product with our JOpt engine. Let JOpt handle the work and calculate the most efficient routes for your tasks and shipments.
 
+## Supplementary Services
 
-## Documented 
-Please have a look at our tutorials-section on how to improve your product with our JOpt engine. Include this software into your solution and let the engine do the work and calculate the best and most convincing tours for a given set of tasks and shipments.
+DNA Evolutions offers additional geographic software components to enhance the automated dispatching process, including tools like JOpt.RoutePlanner and JOpt.GeoCoder.
 
-
-
-## Additional Services
-Also, DNA Evolutions provide geographic software components which are supporting the automated dispatching process such as JOpt.RoutePlanner and JOpt.GeoCoder. 
-
-All our RESTful Services utilise <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html" target="_blank">Spring WebFlux</a> and <a href="https://swagger.io/" target="_blank">Swagger</a>. Internally the Java version of TourOptimizer is used. Indeed all specifications for the different services are derived from the core library, leading to guaranteed compatibility between all three services.
+All of our RESTful Services are powered by [Spring WebFlux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html) and [Swagger](https://swagger.io/). The Java version of TourOptimizer is the internal driving force, ensuring that all specifications across the different services are aligned with the core library. This integration guarantees seamless compatibility across all our services.
 
 <a href="https://dna-evolutions.com/" target="_blank"><img src="https://docs.dna-evolutions.com/indexres/dna-evolutions-product-infographic-jopt-cloud-integration-highres.svg" width="600"
 title="DNA-Evolutions Integration" alt="DNA-Evolutions Integration"></a>
 
 ### JOpt-GeoCoder
-Forward-/Reverse geocode Addresses or Positions.
+This tool enables forward and reverse geocoding of addresses and positions, facilitating accurate location mapping.
 
 ### JOpt-RoutePlanner
-Find distances and driving times between points. Either as turn-by-turn result optionally providing driving instructions and route shapes or as matrix request for multiple routings.
+JOpt-RoutePlanner helps identify distances and driving times between multiple points. It provides turn-by-turn results, optionally including driving instructions and route shapes. It also supports matrix requests for multiple routings.
 
 ### JOpt-TourOptimizer
-Optimize a problem consisting of Nodes, Resources, and optionally externally provided connections. In contrast to our other services, we allow you to host your JOpt-TourOptimizer locally.
-
-
+This tool is designed to optimize a problem consisting of nodes, resources, and, if necessary, externally provided connections. Unlike our other services, JOpt-TourOptimizer offers you the flexibility to host the service locally, catering to your specific needs.
 
 # Further Documentation and Links
 
@@ -118,7 +98,6 @@ With JOpt, you'll work smarter, not harder, hooray!<br>
 
 ## Agreement
 For reading our license agreement and for further information about license plans, please visit <a href="https://www.dna-evolutions.com" target="_blank">www.dna-evolutions.com</a>.
-
 
 ## Authors
 A product by [dna-evolutions ](https://www.dna-evolutions.com)&copy;
